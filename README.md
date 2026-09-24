@@ -1,6 +1,16 @@
-# Welcome to your Lovable project
+# Cookie Cats A/B Testing & Data Analytics Dashboard
 
-This project was built with [Lovable](https://lovable.dev).
+An interactive portfolio analysis of whether Cookie Cats should move its progression gate from Level 30 to Level 40.
+
+![Cookie Cats dashboard preview](docs/cookie-cats-dashboard.png)
+
+## Highlights
+
+- Executive recommendation based on 90,188 cleaned player records
+- One-day and seven-day retention comparison
+- Sample-ratio mismatch and two-sample Z-test results
+- Interactive monthly active user and revenue-impact simulator
+- Downloadable dataset and complete Python analysis
 
 ## Build with Lovable
 

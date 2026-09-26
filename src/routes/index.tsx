@@ -22,6 +22,7 @@ import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAx
 
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
+import { ExperimentAnalystChat } from "@/components/ExperimentAnalystChat";
 import {
   Sheet,
   SheetContent,
@@ -363,6 +364,9 @@ function CookieCatsDashboard() {
             <p className="mt-4 text-xs leading-5 text-muted-foreground">Model assumption: each additional retained player generates $1.25 monthly ad revenue for 12 months. Directional estimate, not a causal revenue forecast.</p>
           </article>
         </section>
+
+        <ExperimentAnalystChat />
+
 
         <footer className="mt-8 flex flex-col gap-4 border-t border-border py-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>Cookie Cats retention analysis · Product experimentation portfolio</p>
